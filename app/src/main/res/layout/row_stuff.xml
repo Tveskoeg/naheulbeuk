@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/nomStuff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Bouclier ensorcelé de champion du chaos (ench. base 1)"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prixStuff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="5000"
+        android:textAlignment="center"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/prOuDgtStuff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="3"
+        android:textAlignment="center"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/malusStuff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="AD-2 AT-3 MV-20%"
+        android:textAlignment="center"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/bonusStuff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="FO+2 AT/PRD+1"
+        android:textAlignment="center"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/ruptureStuff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Non"
+        android:textAlignment="center"
+        android:textSize="8sp" />
+</LinearLayout>
